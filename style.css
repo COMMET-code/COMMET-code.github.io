@@ -126,25 +126,27 @@ body, html {
   overflow: hidden;
 }
 
-/* Video fills the background */
+
+
+
 .video-background {
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  z-index: -1;
 }
 
 .video-background video {
   position: absolute;
-  top: 0%;
-  left: 25%;
-  height: 100%;
-  width: auto;
-  object-fit: cover;
-  opacity: 0.5; /* Adjust opacity here */
+  top: 50%;
+  left: 50%;
+  width: 1024px;           /* Fixed width */
+  height: auto;           /* Maintain aspect ratio */
+  transform: translate(-50%, -50%);
+  opacity: 0.5;           /* Dim background */
 }
 
 /* .video-background video { */
@@ -180,3 +182,24 @@ body, html {
 .content p {
   font-size: 1.5em;
 }
+/* /* Video fills the background */ */
+/* .video-background { */
+/*   position: fixed; */
+/*   top: 0; */
+/*   left: 0; */
+/*   min-width: 100%; */
+/*   min-height: 100%; */
+/*   z-index: -1; */
+/*   overflow: hidden; */
+/* } */
+
+/* .video-background video { */
+/*   position: absolute; */
+/*   top: 0%; */
+/*   left: 25%; */
+/*   height: 100%; */
+/*   width: auto; */
+/*   object-fit: cover; */
+/*   opacity: 0.6; /* 
+/* } */
+
