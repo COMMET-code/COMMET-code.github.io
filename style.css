@@ -1,3 +1,4 @@
+
 /* Base Styles – Dark Theme */
 body {
   font-family: Arial, sans-serif;
@@ -44,6 +45,28 @@ nav a {
 .site-header h1 {
   margin: 0;
   font-size: 2.5em;
+}
+
+
+/* .site-header .header-images { */
+/*   align-items: center; */
+/*   display: flex; */
+/*   gap: 10px; */
+/* } */
+
+
+.header-images {
+  display: flex;
+  justify-content: center; /* Center the group horizontally */
+  align-items: center;
+  gap: 40px; /* space between images */
+  margin-top: 20px;
+}
+
+.site-header .header-images img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* Sections */
@@ -103,6 +126,32 @@ footer {
   padding: 10px;
   background: #1e1e1e;
   color: #bbb;
+}
+
+
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  font-size: 0.9em;
+  bottom:0;
+}
+
+.site-footer .footer-images {
+  display: flex;
+  gap: 10px;
+}
+
+.site-footer .footer-images img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* Video Styling */
@@ -204,4 +253,3 @@ body, html {
 /*   object-fit: cover; */
 /*   opacity: 0.6; /* 
 /* } */
-
