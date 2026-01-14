@@ -1,0 +1,101 @@
+/* Reset & Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background: #007acc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Sections */
+main {
+  padding: 20px;
+}
+
+/* section { */
+/*   margin-bottom: 40px; */
+/*   background: white; */
+/*   padding: 20px; */
+/*   border-radius: 8px; */
+/*   box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+/* } */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* section h2 { */
+/*   text-align: center; */
+/* } */
+.centered {
+  text-align: center;
+}
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #e1e1e1;
+}
+.video-container {
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}

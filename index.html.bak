@@ -55,11 +55,23 @@
 
 
 
-      <h2 class="centered">COMMET solve release!</h2>
-        <p>COMMET solve, an FE solver focused on the preformant integration of neural constitutive models, has been released. Check out the documentation <a href="https://commet-code.github.io/commet_solve/index.html">here.</a> The associated paper published in Computer Methods in Applied Mechanics and Engineering can be found <a href="https://doi.org/10.1016/j.cma.2026.118728">here.</a> </p>
-
-
-
+      <h2 class="centered">Notification sign up!</h2>
+      <p>COMMET will soon be released as free and open-source software. If you would like to be notified when it is released please enter your email below.</p>
+      <form action="https://formspree.io/f/mjkrzqkl" method="POST">
+        <!-- <label> -->
+        <!--   Name: -->
+        <!--   <input type="text" name="name" required> -->
+        <!-- </label> -->
+        <label>
+          Email:
+          <input type="email" name="email" required>
+        </label>
+        <!-- <label> -->
+        <!--   Message: -->
+        <!--   <textarea name="message" required></textarea> -->
+        <!-- </label> -->
+        <button type="submit">Send</button>
+      </form>
     </section>
   </main>
 
